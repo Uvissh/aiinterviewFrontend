@@ -27,7 +27,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:3000/interview/start",
+        "https://aiinterviewbackend-yawl.onrender.com/interview/start",
         {
           role,
           experienceLevel,
@@ -63,7 +63,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:3000/interview/answer",
+        "https://aiinterviewbackend-yawl.onrender.com/interview/answer",
         {
           answer
         }
